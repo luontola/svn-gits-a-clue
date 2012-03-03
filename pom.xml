@@ -117,6 +117,13 @@
             <artifactId>joda-time</artifactId>
             <version>2.1</version>
         </dependency>
+        <dependency>
+            <!-- Required by Scala compiler, see http://www.scala-lang.org/node/10575 -->
+            <groupId>org.joda</groupId>
+            <artifactId>joda-convert</artifactId>
+            <version>1.2</version>
+            <scope>provided</scope>
+        </dependency>
 
         <!-- Scala -->
 
